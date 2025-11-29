@@ -1,0 +1,78 @@
+/* Container styling */
+.fetch-container {
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Heading */
+.fetch-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Loading text */
+.fetch-loading {
+  text-align: center;
+  font-size: 18px;
+  color: #2563eb;
+}
+
+/* Error box */
+.fetch-error {
+  text-align: center;
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #fca5a5;
+}
+
+/* Retry button */
+.fetch-btn {
+  background: #2563eb;
+  color: white;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.fetch-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Grid layout */
+.fetch-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+/* User card */
+.fetch-card {
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+  transition: 0.2s;
+}
+
+.fetch-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* JSON object display */
+.fetch-json {
+  white-space: pre-wrap;
+  padding: 15px;
+  border-radius: 8px;
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+}
